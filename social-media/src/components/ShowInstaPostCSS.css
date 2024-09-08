@@ -1,0 +1,48 @@
+/* Neon Colors */
+.neon-pink {
+    border: 2px solid #ff00ff;
+    box-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff;
+    color: #ff00ff; /* Add color to text to enhance neon effect */
+}
+
+.neon-blue {
+    border: 2px solid #00ffff;
+    box-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff;
+    color: #00ffff; /* Add color to text to enhance neon effect */
+}
+
+.neon-green {
+    border: 2px solid #00ff00;
+    box-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+    color: #00ff00; /* Add color to text to enhance neon effect */
+}
+
+.neon-orange {
+    border: 2px solid #ff9900;
+    box-shadow: 0 0 5px #ff9900, 0 0 10px #ff9900, 0 0 20px #ff9900, 0 0 30px #ff9900;
+    color: #ff9900; /* Add color to text to enhance neon effect */
+}
+
+.neon-purple {
+    border: 2px solid #9900ff;
+    box-shadow: 0 0 5px #9900ff, 0 0 10px #9900ff, 0 0 20px #9900ff, 0 0 30px #9900ff;
+    color: #9900ff; /* Add color to text to enhance neon effect */
+}
+
+/* Add these styles if not already present */
+.neon-button {
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00de, 0 0 35px #ff00de, 0 0 40px #ff00de, 0 0 50px #ff00de, 0 0 75px #ff00de;
+    transition: all 0.3s ease;
+}
+
+.neon-button:hover {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00de, 0 0 35px #ff00de, 0 0 40px #ff00de, 0 0 50px #ff00de, 0 0 75px #ff00de, 0 0 100px #ff00de;
+}
+
+.neon-button.neon-pink { background-color: #ff00de; }
+.neon-button.neon-blue { background-color: #00f7ff; }
+.neon-button.neon-green { background-color: #39ff14; }
+.neon-button.neon-orange { background-color: #ff9900; }
+.neon-button.neon-purple { background-color: #9d00ff; }
+
